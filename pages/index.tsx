@@ -4,15 +4,15 @@ import Link from 'next/link'
 
 import styles from '../styles/Home.module.css'
 
-const Home: NextPage = () => {
+const Home: NextPage = () => {    
+
   return (
     <>
-
         <Head>
             <title>Anjanesh Digital</title>
             <meta name="description" content="Anjanesh Digital - domains, web hosting, wordpress hosting, server setup, digitalocean, discourse"/>
-            <link rel="icon" href="/favicon.ico" />
-        </Head>
+            <link rel="icon" href="/favicon.ico" />            
+        </Head>        
 
         <section className="bg-gray-100 relative text-gray-500"> 
             <div className="container mx-auto pt-24 px-4"> 
