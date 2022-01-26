@@ -17,6 +17,9 @@ const Contact: NextPage = () =>
                     </p>
                 </div>
             </section>
+            <section className="bg-gray-100 text-gray-500">
+                <iframe style={{margin: 'auto'}} src="https://docs.google.com/forms/d/e/1FAIpQLSfm3PuiwqOvvF2G9zfUwcwKb4ulNg4eIKX2Zsz9rVb2OpAeaw/viewform?embedded=true" width="640" height="1967" frameBorder="0" marginHeight={0} marginWidth={0}>Loading…</iframe>
+            </section>
         </div>
     );
 }
