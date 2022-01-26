@@ -19,7 +19,9 @@ const Home: NextPage = () => {
                 <div className="flex flex-wrap -mx-4"> 
                     <div className="mx-auto px-4 text-center w-full lg:w-8/12 xl:w-6/12"> 
                         <h1 className="font-normal mb-4 text-6xl text-gray-900">Let Anjanesh Digital handle all of your digital assets</h1> 
-                        <p className="mb-6 text-lg">Starting from handling all of your domains to web hosting to your community forum</p> <a href="https://forms.gle/Lp5G8qtwiyW8RkYU9" target="_blank" className="bg-blue-600 hover:bg-blue-800 inline-block px-5 py-2 rounded text-white">Get Started</a><a href="#" className="bg-white hover:bg-gray-200 inline-block px-5 py-2 rounded text-blue-600">Learn More</a> 
+                        <p className="mb-6 text-lg">Starting from handling all of your domains to web hosting to your community forum</p>
+                        <a href="https://forms.gle/Lp5G8qtwiyW8RkYU9" target="_blank" className="bg-blue-600 hover:bg-blue-800 inline-block px-5 py-2 rounded text-white" rel="noreferrer">Get Started</a>&nbsp;&nbsp;
+                        <Link href="/about"><a className="bg-white hover:bg-gray-200 inline-block px-5 py-2 rounded text-blue-600" rel="noreferrer">Learn More</a></Link>
                     </div>
                     <div className="mx-auto px-4 text-center w-full lg:w-8/12"> 
                         <div className="-mb-40 bg-white mt-10 p-16 rounded-lg"> 
@@ -440,7 +442,7 @@ const Home: NextPage = () => {
                     </div>                     
                     <div className="p-4 w-full xl:order-1 xl:w-6/12"> 
                         <h2 className="font-normal mb-3 text-5xl">Everything you need to manage in one place</h2>
-                        <p className="mb-4">So ... I am currently forcing a gmail or Google Workspace email (custom domain gmail) collected to my form to prevent spam. If you don't have a Google account email address, you can try WhatsApping me on the number mentioned below ? Anyway, rest assured, you are in good hands.</p>
+                        <p className="mb-4">So ... I am currently forcing a gmail or Google Workspace email (custom domain gmail) collected to my form to prevent spam. If you don&#39;t have a Google account email address, you can try WhatsApping me on the number mentioned below ? Anyway, rest assured, you are in good hands.</p>
                         <div className="flex flex-wrap -mx-4">
                             <div className="p-4 w-full sm:w-4/12">
                                 <div> 
@@ -466,7 +468,7 @@ const Home: NextPage = () => {
                                         <path d="M15 21h-2v-3h-2v3H9v-2H7v2H4a1 1 0 0 1-1-1v-3h2v-2H3v-2h3v-2H3V9h2V7H3V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v9h9a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-3v-2h-2v2z"/>
                                     </svg>
                                     <h3 className="font-normal mb-2 text-lg">99% Uptime ?</h3> 
-                                    <p className="text-sm">Truth is, if there's a major update or an upgrade required or a disaster or a catastrophe then there <u>will</u> be downtime.</p> 
+                                    <p className="text-sm">Truth is, if there&#39;s a major update or an upgrade required or a disaster or a catastrophe then there <u>will</u> be downtime.</p> 
                                 </div>
                             </div>
                         </div>                         
@@ -485,7 +487,7 @@ const Home: NextPage = () => {
                     <div className="mx-auto px-4 text-center w-full lg:w-9/12">
                         <div className="bg-blue-700 px-6 py-16 rounded-lg text-white">
                             <h2 className="font-normal mb-2 text-4xl">Let&apos;s simplify &amp; make your life easier</h2>
-                            <p className="mb-8 text-xl">Connect now to take advantage of the <i>n</i>th best services in Mumbai. <strong>You</strong> decide what <i>n</i> should be after hiring me</p><a href="https://forms.gle/Lp5G8qtwiyW8RkYU9" target="_blank" className="bg-gray-100 font-light hover:bg-blue-800 hover:text-white inline-block px-5 py-2 rounded-sm text-blue-600">Sign Up Now</a>
+                            <p className="mb-8 text-xl">Connect now to take advantage of the <i>n</i>th best services in Mumbai. <strong>You</strong> decide what <i>n</i> should be after hiring me</p><a href="https://forms.gle/Lp5G8qtwiyW8RkYU9" target="_blank" className="bg-gray-100 font-light hover:bg-blue-800 hover:text-white inline-block px-5 py-2 rounded-sm text-blue-600" rel="noreferrer">Sign Up Now</a>
                         </div>                         
                     </div>                     
                 </div>                 
