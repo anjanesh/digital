@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteRule ^about$ about.html
+RewriteRule ^domains$ domains.html
+RewriteRule ^emails$ emails.html
+RewriteRule ^hosting$ hosting.html
+RewriteRule ^forums$ forums.html
+RewriteRule ^pricing$ pricing.html
+RewriteRule ^contact$ contact.html
