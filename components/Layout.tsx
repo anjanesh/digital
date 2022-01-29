@@ -4,6 +4,7 @@ import type { NextPage } from 'next'
 import { Nav } from './Nav'
 import Header from './Header'
 import Footer from './Footer'
+import Trackers from './Trackers'
 
 const Layout: NextPage = ({children}) =>
 {
@@ -25,6 +26,7 @@ const Layout: NextPage = ({children}) =>
             </div>            
         </div>        
         <Footer />
+        <Trackers />
         </>
         );
 }

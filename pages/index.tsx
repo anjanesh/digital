@@ -18,7 +18,7 @@ const Home: NextPage = () => {
             <div className="container mx-auto pt-24 px-4"> 
                 <div className="flex flex-wrap -mx-4"> 
                     <div className="mx-auto px-4 text-center w-full lg:w-8/12 xl:w-6/12"> 
-                        <h1 className="font-normal mb-4 text-6xl text-gray-900">Let Anjanesh Digital handle all of your digital assets</h1> 
+                        <h1 className="font-normal mb-4 text-6xl text-gray-900">Let Anjanesh handle all of your digital assets</h1> 
                         <p className="mb-6 text-lg">Starting from handling all of your domains to web hosting to your community forum</p>
                         <a href="https://forms.gle/Lp5G8qtwiyW8RkYU9" target="_blank" className="bg-blue-600 hover:bg-blue-800 inline-block px-5 py-2 rounded text-white" rel="noreferrer">Get Started</a>&nbsp;&nbsp;
                         <Link href="/about"><a className="bg-white hover:bg-gray-200 inline-block px-5 py-2 rounded text-blue-600" rel="noreferrer">Learn More</a></Link>
@@ -267,20 +267,20 @@ const Home: NextPage = () => {
                             </svg><h3 className="font-normal group-hover:text-white mb-2 text-gray-900 text-xl">Domains</h3>
                             <p className="mb-4 text-sm">$10 (Rs 750) per year for most common domain extensions like .com</p><span className="border-b font-normal group-hover:text-white text-gray-600">Learn More</span></a></Link>
                     </div>                     
-                    <div className="w-full p-4  xl:w-3/12 sm:w-6/12"> <a href="#" className="block border group hover:bg-blue-600 hover:text-white px-8 py-16 rounded-lg"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="group-hover:text-white h-10 inline-block mb-4 text-blue-600 w-10" fill="currentColor"> 
+                    <div className="w-full p-4  xl:w-3/12 sm:w-6/12"> <Link href="/emails"><a className="block border group hover:bg-blue-600 hover:text-white px-8 py-16 rounded-lg"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="group-hover:text-white h-10 inline-block mb-4 text-blue-600 w-10" fill="currentColor"> 
                                 <path d="M5.636 12.707l1.828 1.829L8.88 13.12 7.05 11.293l1.414-1.414 1.829 1.828 1.414-1.414L9.88 8.464l1.414-1.414L13.12 8.88l1.415-1.415-1.829-1.828 2.829-2.828a1 1 0 0 1 1.414 0l4.242 4.242a1 1 0 0 1 0 1.414L8.464 21.192a1 1 0 0 1-1.414 0L2.808 16.95a1 1 0 0 1 0-1.414l2.828-2.829zm8.485 5.656l4.243-4.242L21 16.757V21h-4.242l-2.637-2.637zM5.636 9.878L2.807 7.05a1 1 0 0 1 0-1.415l2.829-2.828a1 1 0 0 1 1.414 0L9.88 5.635 5.636 9.878z"/> 
                             </svg><h3 className="font-normal group-hover:text-white mb-2 text-gray-900 text-xl">Emails</h3>
-                            <p className="mb-4 text-sm">Google Workspace starting @ Rs 125 per month per email id</p><span className="border-b font-normal group-hover:text-white text-gray-600">Learn More</span> </a> 
+                            <p className="mb-4 text-sm">Google Workspace starting @ Rs 125 per month per email id</p><span className="border-b font-normal group-hover:text-white text-gray-600">Learn More</span></a></Link>
                     </div>                     
-                    <div className="w-full p-4  xl:w-3/12 sm:w-6/12"> <a href="#" className="block border group hover:bg-blue-600 hover:text-white px-8 py-16 rounded-lg"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="group-hover:text-white h-10 inline-block mb-4 text-blue-600 w-10" fill="currentColor"> 
+                    <div className="w-full p-4  xl:w-3/12 sm:w-6/12"> <Link href="/hosting"><a className="block border group hover:bg-blue-600 hover:text-white px-8 py-16 rounded-lg"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" className="group-hover:text-white h-10 inline-block mb-4 text-blue-600 w-10" fill="currentColor"> 
                                 <path d="M15 21h-2v-3h-2v3H9v-2H7v2H4a1 1 0 0 1-1-1v-3h2v-2H3v-2h3v-2H3V9h2V7H3V4a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v9h9a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-3v-2h-2v2z"/> 
                             </svg><h3 className="font-normal group-hover:text-white mb-2 text-gray-900 text-xl">Hosting</h3>
-                            <p className="mb-4 text-sm">Starting at <strong>$1</strong> per month per basic website like a static one or a basic WordPress one</p><span className="border-b font-normal group-hover:text-white text-gray-600">Learn More</span> </a> 
+                            <p className="mb-4 text-sm">Starting at <strong>$1</strong> per month per basic website like a static one or a basic WordPress one</p><span className="border-b font-normal group-hover:text-white text-gray-600">Learn More</span></a></Link>
                     </div>                     
-                    <div className="w-full p-4  xl:w-3/12 sm:w-6/12"> <a href="#" className="block border group hover:bg-blue-600 hover:text-white px-8 py-16 rounded-lg"> <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="group-hover:text-white h-10 inline-block mb-4 text-blue-600 w-10"> 
+                    <div className="w-full p-4  xl:w-3/12 sm:w-6/12"> <Link href="/forums"><a className="block border group hover:bg-blue-600 hover:text-white px-8 py-16 rounded-lg"> <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="group-hover:text-white h-10 inline-block mb-4 text-blue-600 w-10"> 
                                 <path d="M8 5h3v9H8v3H6v-3H3V5h3V2h2v3zm10 5h3v9h-3v3h-2v-3h-3v-9h3V7h2v3z"/> 
                             </svg> <h3 className="font-normal group-hover:text-white mb-2 text-gray-900 text-xl">Community Forum</h3>
-                            <p className="mb-4 text-sm">Start @ $10 / month for a server<br/>One time setup fee of $150</p><span className="border-b font-normal group-hover:text-white text-gray-600">Learn More</span> </a> 
+                            <p className="mb-4 text-sm">Start @ $10 / month for a server<br/>One time setup fee of $150</p><span className="border-b font-normal group-hover:text-white text-gray-600">Learn More</span></a></Link>
                     </div>
                 </div>
             </div>             

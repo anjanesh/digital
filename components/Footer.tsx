@@ -11,7 +11,7 @@ const Footer: NextPage = ({children}) =>
                         <p className="mb-4">Navi Mumbai, Maharashtra<br/>India 400706</p> 
                         <div className="mb-6">
                             Please WhatsApp me on <a href="whatsapp://send?phone=+918591035077&text=Hello%2C%20I%20would%20like%20to%20hire%20you%20for%20my%20business" className="hover:text-gray-400">+91 85910 35077</a><br/>
-                            Please Email me at <a href="anjanesh@anjanesh.com" className="hover:text-gray-400">anjanesh@anjanesh.com</a>
+                            Please Email me at <a href="mailto:anjanesh@anjanesh.com" className="hover:text-gray-400">anjanesh@anjanesh.com</a>
                         </div>                         
                     </div>                     
                     <div className="p-4 w-full sm:w-6/12 md:w-3/12 xl:w-2/12"> 

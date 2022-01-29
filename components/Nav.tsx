@@ -13,6 +13,7 @@ export const Nav = () => {
                 <Link href="/emails" passHref={true}><a className="font-light hover:text-blue-600 lg:px-4 py-2 px-0" rel="noreferrer">Emails</a></Link>
                 <Link href="/hosting" passHref={true}><a className="font-light hover:text-blue-600 lg:px-4 py-2 px-0" rel="noreferrer">Web Hosting</a></Link>
                 <Link href="/forums" passHref={true}><a className="font-light hover:text-blue-600 lg:px-4 py-2 px-0" rel="noreferrer">Community Forum</a></Link>
+                <Link href="/recommendations" passHref={true}><a className="font-light hover:text-blue-600 lg:px-4 py-2 px-0" rel="noreferrer">Recommendations</a></Link>                
                 <Link href="/pricing" passHref={true}><a className="font-light hover:text-blue-600 lg:px-4 py-2 px-0" rel="noreferrer">Pricing</a></Link>
                 <Link href="/contact" passHref={true}><a className="font-light hover:text-blue-600 lg:px-4 py-2 px-0" rel="noreferrer">Contact</a></Link>
             </div>
