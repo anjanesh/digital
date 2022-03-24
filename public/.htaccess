@@ -6,4 +6,5 @@ RewriteRule ^emails$ emails.html
 RewriteRule ^hosting$ hosting.html
 RewriteRule ^forums$ forums.html
 RewriteRule ^pricing$ pricing.html
+RewriteRule ^recommendations$ recommendations.html
 RewriteRule ^contact$ contact.html
