@@ -6,7 +6,7 @@ const About: NextPage = () =>
     return (
         <div>
             <Head>
-                <title>About</title>
+                <title>About Anjanesh Digital</title>
             </Head>
             <section className="bg-gray-100 relative text-gray-500"> 
                 <div className="container mx-auto pt-24 px-4">
