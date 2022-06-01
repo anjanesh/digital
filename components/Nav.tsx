@@ -9,6 +9,7 @@ export const Nav = () => {
             <div className="flex flex-col lg:flex-row">
                 <Link href="/" passHref={true}><a href="#" className="font-light hover:text-blue-600 lg:px-4 py-2 px-0" rel="noreferrer">Home</a></Link>
                 <Link href="/about" passHref={true}><a className="font-light hover:text-blue-600 lg:px-4 py-2 px-0" rel="noreferrer">About</a></Link>
+                <Link href="/partners" passHref={true}><a className="font-light hover:text-blue-600 lg:px-4 py-2 px-0" rel="noreferrer">Partners</a></Link>
                 <Link href="/domains" passHref={true}><a className="font-light hover:text-blue-600 lg:px-4 py-2 px-0" rel="noreferrer">Domains</a></Link>
                 <Link href="/emails" passHref={true}><a className="font-light hover:text-blue-600 lg:px-4 py-2 px-0" rel="noreferrer">Emails</a></Link>
                 <Link href="/hosting" passHref={true}><a className="font-light hover:text-blue-600 lg:px-4 py-2 px-0" rel="noreferrer">Web Hosting</a></Link>

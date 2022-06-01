@@ -19,8 +19,14 @@ const Footer: NextPage = ({children}) =>
                         <ul>
                             <li className="mb-4">
                                 <Link href="/about" passHref={true}><a className="hover:text-gray-400">About</a></Link>
-                            </li>                             
-                        </ul>                         
+                            </li>
+                            <li className="mb-4">
+                                <Link href="/partners" passHref={true}><a className="hover:text-gray-400">Partners</a></Link>
+                            </li>
+                            <li className="mb-4">
+                                <a href="https://github.com/anjanesh/digital" className="hover:text-gray-400" target="_blank" rel="noreferrer">Source Code</a>
+                            </li>
+                        </ul>
                     </div>                     
                     <div className="p-4 w-full sm:w-6/12 md:w-3/12 xl:w-2/12"> 
                         <h2 className="font-normal mb-8 text-lg uppercase">Services</h2> 
