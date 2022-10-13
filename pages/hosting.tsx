@@ -11,7 +11,7 @@ const Hosting: NextPage = () =>
             <section className="bg-gray-100 relative text-gray-500"> 
                 <div className="container mx-auto pt-24 px-4">
                     <h1 className="font-normal mb-4 text-4xl text-gray-900"><u>General Web Hosting</u></h1>
-                    <p className="mb-6 text-lg">                        
+                    <p className="mb-6 text-lg">
                         For most basic hosting - regular PHP websites, Laravel based PHP apps / sites, nodeJS, Django etc managed hosting at <a href="https://opalstack.com" target="_blank" className="underline text-blue-600 hover:text-blue-800" rel="noreferrer">OpalStack.com</a> would suffice. They start at $95 a year for shared plans and have $20 / month VPS located in Mumbai. They use <a href="https://linode.com" target="_blank" className="underline text-blue-600 hover:text-blue-800" rel="noreferrer">Linode</a> servers.<br/><br/>
                         Incase you are starting up and $10 a month budget is an issue then I would receommend <a href="https://www.milesweb.in/hosting/shared-hosting" target="_blank" className="underline text-blue-600 hover:text-blue-800" rel="noreferrer">MilesWeb.com</a> which is less than a dollar (₹60) per month pre-paid for 3 years. This would end up totally @ ₹2,160 ($30) for a period of 3 years ! This is not the average dollar-a-month hosting company. They are not resellers of any other big web hosting company and have full-time linux sys admin staff located in <a href="https://en.wikipedia.org/wiki/Nashik" target="_blank" className="underline text-blue-600 hover:text-blue-800" rel="noreferrer">Nashik</a> to monitor and manage their servers located in Mumbai, India.
                     </p>
