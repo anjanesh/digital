@@ -25,10 +25,16 @@ const Partners: NextPage = () =>
                     <p className='text-right'><a href="https://paragcomputers.in" className="text-blue-900 hover:text-blue-500">paragcomputers.in</a></p>
                     <p className='clear-both'><br/></p>
 
-                    <img src="https://newapnatravels.com/suchit-sawant.webp" alt="Parag" width="200" className='ml-5 float-right hidden md:block'/>
+                    <img src="https://newapnatravels.com/suchit-sawant.webp" alt="Suchit" width="200" className='ml-5 float-right hidden md:block'/>
                     <h2 className='text-3xl'>Suchit Sawant</h2>
                     <p className="pb-6 text-lg text-justify mt-5">New Apna Travels is a recreational and leisure travel management company offering value for money travel options. In our tours we work with the synchronization of eye and mind, a flash of perception - the ordinary magic of the phenomenal world. New Apna Travels offer travel consultancy, leisure holiday, special honeymoon package tours, adventure vacations and photo tours, eco tours, local city sightseeing, air ticketing, accommodation and adventure activities</p>
                     <p className='text-right'><a href="https://newapnatravels.com" className="text-blue-900 hover:text-blue-500">newapnatravels.com</a></p>
+                    <p className='clear-both'><br/></p>
+
+                    <img src="https://anjanesh.digital/shabeer.webp" alt="Shabeer" width="200" className='ml-5 float-right hidden md:block'/>
+                    <h2 className='text-3xl'>Shabeer Naha</h2>
+                    <p className="pb-6 text-lg text-justify mt-5">Naha is a Co founder of SMCS and has over 14+ years of hands-on experience in Strategy consulting, Business Turn around management, Deal origination, and Business Development. After Co-founding and Incubating a New Media Technology start up at Asia&#39;s largest Technology Park, Technopark; he exited the business successfully since five years of its inception. He had served Fortune100, Global2000, mid cap companies and many SMBs in various capacities across multiple industry segments. He is an Industrial Engineering graduate from Kerala University.</p>
+                    <p className='text-right'><a href="https://smcsindia.com" className="text-blue-900 hover:text-blue-500">smcsindia.com</a></p>
                     <p className='clear-both'><br/></p>
 
                 </div>
