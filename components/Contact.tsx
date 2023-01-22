@@ -20,7 +20,7 @@ export default function Contact() {
     mode: "onTouched",
   });
   const [isSuccess, setIsSuccess] = useState(false);
-  const [message, setMessage] = useState(false);
+  const [message, setMessage] = useState('');
 
   // Please update the Access Key in the .env
   const apiKey = process.env.PUBLIC_ACCESS_KEY || "51f4b618-02e2-4261-b8b0-fd7f4133d1fd";
@@ -113,7 +113,7 @@ export default function Contact() {
             id="email_address"
             type="email"
             placeholder="Email Address"
-            name="email"
+            // name="email"
             autoComplete="false"
             className={`w-full px-4 py-3 border-2 placeholder:text-gray-800 dark:text-white rounded-md outline-none dark:placeholder:text-gray-200 dark:bg-gray-900   focus:ring-4  ${
               errors.email
@@ -137,7 +137,7 @@ export default function Contact() {
 
         <div className="mb-3">
           <textarea
-            name="message"
+            // name="message"
             placeholder="Your Message"
             className={`w-full px-4 py-3 border-2 placeholder:text-gray-800 dark:text-white dark:placeholder:text-gray-200 dark:bg-gray-900   rounded-md outline-none  h-36 focus:ring-4  ${
               errors.message

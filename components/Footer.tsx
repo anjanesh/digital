@@ -3,6 +3,8 @@ import Link from 'next/link'
 
 const Footer: NextPage = ({children}) =>
 {
+    const YYYY = new Date().getFullYear();
+
     return (
         <footer className="bg-gray-900 pt-12 text-white"> 
             <div className="container mx-auto px-4"> 
@@ -74,7 +76,7 @@ const Footer: NextPage = ({children}) =>
                     <hr className="border-gray-400 mb-4 opacity-25"/> 
                     <div className="flex flex-wrap -mx-4  items-center"> 
                         <div className="px-4 py-2 w-full md:flex-1"> 
-                            <p>&copy; 2022 | All Rights Reserved - Anjanesh Digital</p> 
+                            <p>&copy; {YYYY} | All Rights Reserved - Anjanesh Digital</p> 
                         </div>                         
                         <div className="px-4 py-2 w-full sm:w-auto"> <a href="#" className="hover:text-gray-400">Privacy Policy</a> |                      <a href="#" className="hover:text-gray-400">Terms of Use</a> 
                         </div>                         

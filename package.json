@@ -1,9 +1,9 @@
 {
-  "name": "digital",
+  "name": "digital",  
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build && next export && node upload.mjs",
     "start": "next start",
     "lint": "next lint"
   },
@@ -18,8 +18,13 @@
   "devDependencies": {
     "@types/node": "17.0.10",
     "@types/react": "17.0.38",
+    "autoprefixer": "^10.4.13",
+    "dotenv": "^16.0.3",
     "eslint": "8.7.0",
     "eslint-config-next": "12.0.8",
+    "node-scp": "^0.0.22",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.1",
     "typescript": "4.5.5"
   }
 }

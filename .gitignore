@@ -37,3 +37,5 @@ yarn-error.log*
 *.tsbuildinfo
 
 /pinegrow/
+.env
+upload.sh
