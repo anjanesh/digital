@@ -20,7 +20,7 @@ const Partners: NextPage = () =>
                     <p className='clear-both'><br/></p>
 
                     <img src="https://paragcomputers.in/images/parag.png" alt="Parag" width="200" className='ml-5 float-right hidden md:block'/>
-                    <h2 className='text-3xl'>Parag Dhwale</h2>
+                    <h2 className='text-3xl'>Parag Dhawle</h2>
                     <p className="pb-6 text-lg text-justify mt-5">Computer hardware engineer with over 25 years of experience.</p>
                     <p className='text-right'><a href="https://paragcomputers.in" className="text-blue-900 hover:text-blue-500">paragcomputers.in</a></p>
                     <p className='clear-both'><br/></p>

@@ -22,9 +22,10 @@ const upload = async () =>
     try
     {
         const client = await Client(remote_server);
+        console.log("Uploading .... ");
         await client.uploadDir(process.env.LOCAL_FOLDER, process.env.REMOTE_FOLDER);
         client.close();
-        console.log("Done");
+        console.log("Upload Done");
     }
     catch (e)
     {
